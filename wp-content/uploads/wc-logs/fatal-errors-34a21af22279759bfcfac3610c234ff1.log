@@ -1,0 +1,305 @@
+2018-01-26T09:45:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Kirki::add_field(), 1 passed in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\inc\customizers.php on line 336 and exactly 2 expected in E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\kirki\core\class-kirki.php:225
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\inc\customizers.php(336): Kirki::add_field(Array)
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-settings.php(450): do_action('init')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-config.php(89): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#7 E:\xamp
+
+2018-01-26T09:45:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Kirki::add_field(), 1 passed in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\inc\customizers.php on line 336 and exactly 2 expected in E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\kirki\core\class-kirki.php:225
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\inc\customizers.php(336): Kirki::add_field(Array)
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-settings.php(450): do_action('init')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-config.php(89): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#7 E:\xamp
+
+2018-01-26T17:02:05+00:00 CRITICAL Uncaught Error: Call to undefined function ver_dump() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\archive-product.php:49
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-01-26T17:02:12+00:00 CRITICAL Uncaught Error: Call to undefined function ver_dump() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\archive-product.php:49
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-01-27T12:04:51+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\content-single-product.php:17
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('E:\\xampp\\htdocs...', false)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\single-product.php(81): wc_get_template_part('content', 'single-product')
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#6 {main}
+  thrown
+
+2018-01-27T12:17:56+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on string in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\template-parts\tpl-peakclimbing\template-singleslider.php:2
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', false)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\content-single-product.php(85): get_template_part('template-parts/...', 'singleslider')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('E:\\xampp\\htdocs...', false)
+#6 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes
+
+2018-01-28T07:35:54+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trim_word() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php:46
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-01-28T07:38:33+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_author() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php:45
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-01-28T08:10:55+00:00 CRITICAL Uncaught Error: Call to undefined function wp_reset_postdate() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php:54
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-01-28T08:18:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_sidebar() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\single.php:35
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-01-28T09:11:59+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar.php:40
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(58): get_sidebar()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:12:02+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar-single.php:41
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\single.php(38): get_sidebar('single')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:13:11+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar-single.php:41
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\single.php(38): get_sidebar('single')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:13:23+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar.php:40
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(58): get_sidebar()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:13:42+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar.php:40
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(58): get_sidebar()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:16:40+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar-single.php:41
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\single.php(38): get_sidebar('single')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:26:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function gia(), 0 passed in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar-single.php on line 46 and exactly 1 expected in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\inc\template-functions.php:110
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\sidebar-single.php(46): gia()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(110): locate_template(Array, true)
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\single.php(38): get_sidebar('single')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\wp-blog-hea
+
+2018-01-28T09:29:08+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(62): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:29:09+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\404.php(60): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:30:36+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(62): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:30:44+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\404.php(60): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:31:10+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(62): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:31:11+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\404.php(60): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:31:18+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\404.php(60): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:31:44+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\footer.php:28
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(688): require_once()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', true)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\page-blog.php(62): get_footer()
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:33:06+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\template-parts\tpl-peakclimbing\template-homeslider.php:50
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', false)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\front-page.php(9): get_template_part('template-parts/...', 'homeslider')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\index.php(17): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-01-28T09:34:52+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\content-product.php:21
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('E:\\xampp\\htdocs...', false)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\archive-product.php(66): wc_get_template_part('content', 'product')
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template-loader.php(74): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\projects\peakclimbing\wp-blog-header.php(19): r
+
+2018-01-28T09:35:36+00:00 CRITICAL Uncaught Error: Call to undefined function gia() in E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\template-parts\tpl-peakclimbing\template-singleslider.php:6
+Stack trace:
+#0 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require()
+#1 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(647): load_template('E:\\xampp\\htdocs...', false)
+#2 E:\xampp\htdocs\projects\peakclimbing\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\content-single-product.php(85): get_template_part('template-parts/...', 'singleslider')
+#4 E:\xampp\htdocs\projects\peakclimbing\wp-includes\template.php(690): require('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\projects\peakclimbing\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('E:\\xampp\\htdocs...', false)
+#6 E:\xampp\htdocs\projects\peakclimbing\wp-content\themes\peakclimbing\woocommerce\s
+
